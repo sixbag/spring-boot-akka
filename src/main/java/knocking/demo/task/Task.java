@@ -1,6 +1,11 @@
-package knocking.demo.event;
+package knocking.demo.task;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Task {
+    @Id
     private String payload;
     private Integer priority;
 

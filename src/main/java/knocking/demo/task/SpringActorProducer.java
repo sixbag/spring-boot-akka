@@ -1,9 +1,12 @@
-package knocking.demo.actor;
+package knocking.demo.task;
 
 import akka.actor.Actor;
 import akka.actor.IndirectActorProducer;
 import org.springframework.context.ApplicationContext;
 
+/**
+ * @date 2016/9/20 17:18
+ **/
 public class SpringActorProducer implements IndirectActorProducer {
     private final ApplicationContext applicationContext;
     private final String actorBeanName;

@@ -6,7 +6,9 @@ import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class AkkaDemoApplication {
-    public static void main(String[] args) {
-        ApplicationContext ctx = SpringApplication.run(AkkaDemoApplication.class, args);
+
+    public static void main(String[] args) throws Exception {
+        ApplicationContext context =
+                SpringApplication.run(AkkaDemoApplication.class, args);
     }
 }
