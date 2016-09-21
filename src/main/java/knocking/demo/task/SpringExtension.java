@@ -1,8 +1,7 @@
-package knocking.demo.config.extension;
+package knocking.demo.task;
 
 import akka.actor.Extension;
 import akka.actor.Props;
-import knocking.demo.task.SpringActorProducer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
